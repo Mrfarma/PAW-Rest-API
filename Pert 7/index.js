@@ -1,3 +1,13 @@
+//Latihan 7.3
+
+var express = require("express");
+var app = express();
+app.get("/", (req, res) => {
+  res.end("Konten dari method GET");
+});
+app.listen(8000, () => {
+  console.log("Server is running on port 8000");
+});
 //Latihan 7.2
 // var http = require("http");
 
